@@ -72,7 +72,8 @@ h6 { font-size:1.5em; }
 
 A
 {
-	color:#666;
+	color: #800;	
+	text-decoration: none;
 }
 A:hover
 {

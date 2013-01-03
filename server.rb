@@ -20,6 +20,10 @@ class WeddingSite < Sinatra::Base
     haml :hotels
   end
 
+  get "/faq" do
+    haml :faq
+  end
+
   get "/registry" do
     haml :registry
   end
