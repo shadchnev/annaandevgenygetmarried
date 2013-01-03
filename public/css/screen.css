@@ -342,7 +342,9 @@ UL.clean, UL.clean LI
 	background:#f0f0f0;
 }
 
-
+.backpacking {
+	margin-top: 120px;
+}
 
 /* Clearfix */
 .clearfix:after {

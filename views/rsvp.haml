@@ -1,9 +1,18 @@
-.grid_12
+.grid_6
   %h1 RSVP  
   %p
     Please RSVP to
-    %a{:href => "mailto:RSVP@AnnaAndEvgenyGetMarried.com"} RSVP@AnnaAndEvgenyGetMarried.com
-    by 30 April.
+    = succeed "." do
+      %a{:href => "mailto:RSVP@AnnaAndEvgenyGetMarried.com"} RSVP@AnnaAndEvgenyGetMarried.com
+  %p
+    We will appreciate if you let us know by the 30th April.
+    
   %p
     We aim to have a very small wedding, so we kindly ask you to leave any additional guests at home.
 
+.grid_6
+  %img.shadow-large{:src => "/images/dewsall-table.png", :alt => "Cats"}
+  %small
+    &copy;
+    %a{:href => "http://www.dewsall.com"} Dewsall
+.clear
